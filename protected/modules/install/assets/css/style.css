@@ -1,0 +1,16 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 30px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}

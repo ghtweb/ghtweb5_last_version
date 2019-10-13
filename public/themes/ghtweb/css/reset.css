@@ -1,0 +1,320 @@
+/* HTML 5 elements 
+====================================*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{ 
+	display: block;
+}
+
+*
+{
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	background: url(../images/bg.jpg) no-repeat scroll 50% 0 #150d0a;
+	color: #fff;
+	font-family: 'PT Sans', Arial;
+	font-size: 14px;
+	line-height: 1.4;
+	overflow-x: hidden;
+}
+
+/* Clearfix 
+====================================*/
+.clearfix:after
+{
+	clear: both;
+	content: '';
+	display: block;
+	font-size: 0;
+}
+
+/* Images 
+====================================*/
+img
+{
+	border: none;
+}
+
+/* Headings 
+====================================*/
+h1, h2, h3
+{
+	font-weight: normal;
+}
+
+h2
+{
+	color: #fff;
+	font-family: 'Minion Pro';
+	font-size: 24px;
+	margin: 0 0 15px;
+	text-transform: uppercase;
+}
+
+/* Paragraphs 
+====================================*/
+p
+{
+	margin: 20px 0;
+}
+
+.help-block
+{
+	font-size: 13px;
+	margin: 0;
+}
+
+/* Links 
+====================================*/
+a
+{
+	color: #5aaee9;
+}
+
+a:hover
+{
+	color: #aedafe;
+}
+
+/* Lists 
+====================================*/
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li
+{
+
+}
+
+/* Tables 
+====================================*/
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0;
+}
+
+/* Forms 
+===================================*/
+input,
+textarea
+{
+	color: #404142;
+	font-family: 'PT Sans';
+	font-size: 13px;
+}
+
+label.control
+{
+	cursor: pointer;
+	display: block;
+	height: 20px;
+	position: relative;
+	width: 20px;
+}
+
+	label.control input
+	{
+		display: none;
+	}
+
+	label.control .switch
+	{
+		background: url(../images/icons/checkbox.png) no-repeat scroll 0 0;
+		display: block;
+		height: 20px;
+		width: 20px;
+	}
+
+	label.control :checked ~ .switch
+	{
+		background-position: 0 100%;
+	}
+
+.form-group,
+.button-group
+{
+	background: rgba(0, 0, 0, .2);
+	line-height: 32px;
+	margin: 0 0 8px;
+
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+}
+
+.button-group
+{
+	height: auto;
+	line-height: normal;
+	padding: 10px 0 15px;
+}
+
+.button-group.center
+{
+	text-align: center;
+}
+
+	.form-group label
+	{
+		float: left;
+		font-size: 14px;
+		line-height: 32px;
+		padding: 0 0 0 20px;
+		width: 160px;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+
+		.form-group label .required
+		{
+			color: #f99b03;
+		}
+
+	.form-group .field
+	{
+		margin: 0 0 0 160px;
+		position: relative;
+	}
+
+		input,
+		.form-group .field input,
+		.form-group .field textarea
+		{
+			background: #281711;
+			border: 1px solid #4c2c20;
+			color: #fff;
+			height: 32px;
+			padding: 0 20px;
+			width: 100%;
+
+			-webkit-border-radius: 5px;
+			   -moz-border-radius: 5px;
+					border-radius: 5px;
+
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+					box-sizing: border-box;
+
+			-webkit-box-shadow: 1px 1px 4px rgba(3, 4, 4, .75) inset;
+			   -moz-box-shadow: 1px 1px 4px rgba(3, 4, 4, .75) inset;
+					box-shadow: 1px 1px 4px rgba(3, 4, 4, .75) inset;
+		}
+
+		.form-group .field textarea
+		{
+			height: 80px;
+			resize: none;
+			padding: 10px 20px;
+			position: static;
+		}
+
+		.form-group .field select,
+		select
+		{
+			padding: 0 10px;
+		}
+
+		.form-group .field.captcha input
+		{
+			width: 265px;
+		}
+
+		.form-group .field .refresh
+		{
+			background: url(../images/icons/refresh.png) no-repeat scroll 0 50%;
+			display: inline-block;
+			height: 32px;
+			margin: 0 20px 0 245px;
+			width: 18px;
+		}
+
+		.form-group .field .captcha-image
+		{
+			cursor: pointer;
+			float: right;
+
+			-webkit-border-radius: 8px;
+			   -moz-border-radius: 8px;
+					border-radius: 8px;
+		}
+
+			.form-group .field .captcha-image img
+			{
+				display: block;
+				max-width: 100%;
+			}
+
+		.form-group .field .help-block
+		{
+			color: #999999;
+		    font-size: 12px;
+		    line-height: 16px;
+		    margin: 0;
+		    padding: 40px 0 10px 25px;
+		}
+
+		.form-group .field textarea + .help-block,
+		.form-group .field input + .help-block
+		{
+			padding: 5px 0 5px 25px;
+		}
+
+	button.button,
+	a.button
+	{
+		background: url(../images/bg-button.png) no-repeat scroll 0 0;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		font-family: 'PT Sans';
+		font-size: 14px;
+		font-weight: bold;
+		height: 38px;
+		line-height: 32px;
+		margin: 0 20px;
+		padding: 0 0 0 10px;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	button.button:after,
+	a.button:after
+	{
+		background: url(../images/bg-button-right.png) no-repeat scroll 0 0;
+		content: '';
+		cursor: pointer;
+		height: 38px;
+		position: absolute;
+		right: -7px;
+		top: 0;
+		width: 10px;
+	}
+
+		button.button span,
+		a.button span
+		{
+			display: inline-block;
+			padding: 0 20px;
+			vertical-align: 3px;
+		}

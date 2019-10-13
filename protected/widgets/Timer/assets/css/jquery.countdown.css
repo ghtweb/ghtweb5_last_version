@@ -1,0 +1,79 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	border: 1px solid #26140D;
+	background-color: rgba(111, 56, 22, .3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 4px 10px;
+    text-align: center;
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown-amount {
+    font-size: 200%;
+}
+.countdown-period {
+    display: block;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+
+.is-countdown ul
+{
+    word-spacing: -4px;
+}
+
+.is-countdown ul li
+{
+    margin-right: 15px;
+    display: inline-block;
+    word-spacing: 0;
+    font-size: 40px;
+}
+
+.is-countdown ul li span
+{
+    font-size: 16px;
+    text-transform: lowercase;
+}

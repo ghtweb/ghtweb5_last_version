@@ -1,0 +1,14 @@
+.user-messages-block {
+    z-index: 999;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 5px 14px;
+    background: none repeat scroll 0 0 rgba(94, 196, 255, 0.25);
+    color: #68B7EA;
+    font-size: 13px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}

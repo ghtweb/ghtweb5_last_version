@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">=7.1",
+        "cocur/slugify": "^3.0",
+        "intervention/image": "^2.4"
+    }
+}
