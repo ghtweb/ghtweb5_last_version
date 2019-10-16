@@ -9,7 +9,7 @@
 
 $this->pageTitle = 'Ошика ' . $code;
 ?>
-<h2><?php echo e($this->pageHeader) ?></h2>
+<h2><?php echo e($this->pageTitle) ?></h2>
 <?php if (YII_DEBUG) { ?>
     <?php prt(app()->errorHandler->error) ?>
 <?php } else { ?>
